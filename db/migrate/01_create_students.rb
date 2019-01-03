@@ -6,5 +6,5 @@ class CreateStudents < ActiveRecord::Migration[5.1]
     )
   SQL
   
-  ACTIVE
+  ActiveRecord::Base.execute
 end
