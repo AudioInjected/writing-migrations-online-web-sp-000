@@ -5,4 +5,6 @@ class CreateStudents < ActiveRecord::Migration[5.1]
       name TEXT
     )
   SQL
+  
+  ACTIVE
 end
